@@ -17,5 +17,6 @@ function unTrack(url){
         //[0]https: [1] [2]www.tumblr.com [3]username [4]postID [5]postText
         let newURL = https + "//" + username + ".tumblr.com/" + postID + "/" + postText;
         console.log(newURL);
+        return newURL;
     });
 }
